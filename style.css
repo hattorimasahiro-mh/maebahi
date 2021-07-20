@@ -1,0 +1,203 @@
+@media (max-width: 670px) {
+    *{
+        box-sizing:border-box;
+      
+    }
+    body,h1,p,ul,li,a,img{
+        width:100%;
+        margin:0;
+        padding:0;
+        object-fit: contain
+        /* object-fit: cover; */
+        /* display: block; */
+        
+    }
+    
+    li{
+        float:left;
+        list-style:none;
+        
+    }
+    
+    header{ 
+        width:100%;
+        height:80px;
+        /* line-height:80px; */
+        background-color:rgba(252, 215, 209, 0.7);
+        text-align: center;
+        position:fixed; 
+        
+    }
+    
+    .header_text{
+        position: relative;
+    }
+    
+    
+    
+    .header_logo{
+        line-height:80px;
+        font-size: 40px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgb(255, 255, 255);
+        text-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+        display:inline-block;
+        text-align: center;
+        position:relative;
+    
+        
+    }
+    
+    .header_list{
+        color:rgb(255, 255, 255);
+        text-shadow: 5px 5px 20px rgba(0,0,0,0.6);
+        /* position:relative; */
+        /* float:right; */
+        margin-top:50px;
+        
+        
+    }
+    
+    
+    .header_list li a{
+        /* position: absolute; */
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 30px;
+        color:rgb(0, 0, 0);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        display: none;
+        
+    }
+
+    .top_img{
+        
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    
+    
+    .top_img img{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    /* 群馬フラワーパーク⬇️ */
+    
+    .First_main{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(196, 243, 238);
+        margin-top:-290px;
+    }
+    .First_main_content {
+        margin-left: 200px;
+       
+        float: left;
+    }
+    
+    .First_main_content h1{
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 5px 5px 7px rgba(0,0,0,0.9);
+        color:white;
+        margin:-20px;
+    }
+    
+    .First_main_content p{
+        margin-top:-60px;
+        line-height:30px;
+    }
+    
+    /* .First_main_img{
+        display: inline;
+    } */
+    
+    .First_main_img img{
+        
+
+        margin:-60px;
+       
+        
+    }
+    
+    /* 前橋駅⬇️ */
+    
+    .second_main{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(196, 243, 238);
+        margin-top:250px;
+    }
+    
+    /* .second_main_content{
+        margin-right: 200px;
+        float: right;
+        
+    } */
+    
+    .second_main_content h1{
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 5px 5px 7px rgba(0,0,0,0.9);
+        color:white;
+        margin:-20px;
+    }
+    
+    .second_main_content p{
+        margin-top:60px;
+        line-height: 90px;
+    }
+    
+    .second_main_img {
+        display: inline;
+        
+    }
+    
+    .second_main_img img{
+        text-align: left;
+        margin: -60px; 
+        
+    } 
+    
+    /* 赤城神社⬇️ */
+    
+    .third_main{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(196, 243, 238);
+        margin-top:250px;
+    }
+    .third_main_content {
+        margin-left: 150px;
+       
+        float: left;
+    }
+    
+    .third_main_content h1{
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 5px 5px 7px rgba(0,0,0,0.9);
+        color:white;
+        margin:-20px;
+    }
+    
+    .third_main_content p{
+        margin-top:60px;
+        line-height: 90px;
+    }
+    
+    .third_main_img{
+        display: inline;
+    }
+    
+    .third_main_img img{
+        text-align: right;
+        margin: -60px;
+        
+    }
+  }
