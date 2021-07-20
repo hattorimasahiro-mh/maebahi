@@ -1,7 +1,7 @@
 *{
-        box-sizing:border-box;
-      
-    }
+    box-sizing:border-box;
+}
+
 
 body,h1,p,ul,li,a,img{
     margin:0;
@@ -18,59 +18,60 @@ li{
 header{ 
     width:100%;
     height:80px;
-    /* line-height:80px; */
     background-color:rgb(209, 232, 252,0.7);
     text-align: center;
     position:fixed; 
-    display:none; 
+    display:none;
+    /* line-height:80px; */
+    
 }
 
-.header_text{
+/* .header_text{
     position: relative;
-}
+} */
 
 
 
 .header_logo{
+    
     line-height:80px;
     font-size: 40px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:rgb(255, 255, 255);
     text-shadow: 5px 5px 10px rgba(0,0,0,0.6);
-    /* margin-left: 560px; */
-    margin-left: 430px;
-    display:inline-block;
-    text-align: center;
     position:relative;
-
-    
+    text-align: center;
+    display:inline-block;
+    /* margin-left: 560px; */
+   
 }
 
 .header_list{
     color:rgb(255, 255, 255);
     text-shadow: 5px 5px 20px rgba(0,0,0,0.6);
-    /* position:relative; */
-    float:right;
     margin-top:50px;
-    
+    position: absolute;
+    float: right;
+    top: 0;
+    right:0;
+    /* float:right; */
+    /* position:relative; */
     
 }
 
 
 .header_list li a{
-    /* position: absolute; */
-    display: inline-block;
-    vertical-align: bottom;
     margin-right: 30px;
     color:rgb(0, 0, 0);
     font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    /* vertical-align: bottom; */
+    
     
 }
 
 
-.top_img img{
-    display:none;
-}
+
 
 
 /* 群馬フラワーパーク⬇️ */
